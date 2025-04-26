@@ -25,7 +25,7 @@ print(common)
 # 3. Write a function that reverses each word in a string but keeps their order.
 
 def reverse_order(text):
-    words = text.split()                              #text means string append reverse not working in this method so using split and giving crct format for sting with double quotes
+    words = text.split()                              
     reversedwords=[word[::-1] for word in words]
     return(reversedwords)
 input="hello world"
